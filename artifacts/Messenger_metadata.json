@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "read_messages",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "_from",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "_message",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Messenger.Message[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender_address",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "message_content",
+						"type": "string"
+					}
+				],
+				"name": "send_message",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Messenger_SC.sol": "Messenger"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Messenger_SC.sol": {
+			"keccak256": "0x567c22fa7c6c5604101fd85aaf7e039725e65d21054c4674b9f73a8541cebd62",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://45755d0ec1d3d6c85959ec3ebf18ade5885dc763d09ea0f00c0de2e6352f9218",
+				"dweb:/ipfs/QmNcqKetYL3SFXrESevGyHGh1p9jfsr9EhChvqU34Eyne8"
+			]
+		}
+	},
+	"version": 1
+}
